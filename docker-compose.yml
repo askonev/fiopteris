@@ -4,7 +4,7 @@ secrets:
 
 services:
   foundry:
-    image: felddy/foundryvtt:release-11.315.0
+    image: felddy/foundryvtt:11.315
     hostname: my_foundry_host
     volumes:
       - type: bind
