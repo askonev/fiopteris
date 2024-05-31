@@ -6,6 +6,7 @@ services:
   foundry:
     image: felddy/foundryvtt:11.315
     hostname: my_foundry_host
+    restart: always
     volumes:
       - type: bind
         source: /home/justask/node/foundaryvtt/data
