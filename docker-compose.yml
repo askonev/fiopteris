@@ -4,7 +4,7 @@ secrets:
 
 services:
   foundry:
-    image: felddy/foundryvtt:11.315
+    image: felddy/foundryvtt:12.331.0	
     hostname: my_foundry_host
     restart: always
     volumes:
