@@ -1,3 +1,3 @@
 #!/bin/bash
 
-tar -czf ./backup/backup$(date +%Y-%m-%d_%H-%M-%S).tar.gz ./data
+tar -czvf ./trash_backet/fiopteris_backup_$(date +%Y-%m-%d_%H-%M-%S).tar.gz ./data
